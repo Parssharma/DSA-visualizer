@@ -1,0 +1,58 @@
+# Build and binary directories
+build/
+bin/
+out/
+dist/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Compiled binaries and libraries
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+
+# Dependencies & Package managers
+_deps/
+node_modules/
+
+# Logs and runtime outputs
+*.log
+crash_log.txt
+stdout.txt
+stderr.txt
+dsa_screenshot.png
+dsa_data.json
+
+# Environment and sensitive files
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.secret
+*.credentials
+credentials.json
+secrets.*
+
+# IDE and Editor configurations
+.vscode/
+.vs/
+.idea/
+*.user
+*.suo
+*.sln.docstates
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
